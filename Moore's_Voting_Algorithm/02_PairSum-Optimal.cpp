@@ -4,7 +4,7 @@ using namespace std;
 
 vector<int> PairSum(vector<int> nums, int target)
 {
-    int start = 0, end = nums.size() - 1;  // Two Pointer Apporach
+    int start = 0, end = nums.size() - 1; // Two Pointer Apporach
     vector<int> ans;
 
     while (start < end)
@@ -42,6 +42,8 @@ int main()
     cout << endl;
 
     int target = 13;
+    cout << "Given Target : " << target << endl;
+
     vector<int> ans = PairSum(nums, target);
     cout << "nums[" << ans[0] << "] + nums[" << ans[1] << "] = " << target << endl;
 
