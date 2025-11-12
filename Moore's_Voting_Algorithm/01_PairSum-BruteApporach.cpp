@@ -36,6 +36,8 @@ int main()
     cout << endl;
 
     int target = 13;
+    cout<<"Given Target : "<<target<<endl;
+    
     vector<int> ans = PairSum(nums, target);
     cout << "nums[" << ans[0] << "] + nums[" << ans[1] << "] = " << target << endl;
 
